@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./favicon-game.svg" />
+    <!-- Home-screen app (fullscreen.ts): Android reads the manifest, iPhone the apple tags. -->
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
+    <meta name="theme-color" content="#16181d" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Tower Tactics" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Tower Tactics — prototype</title>
+    <script type="module" crossorigin src="./assets/game-C3aliROV.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/cardText-59wQZtqT.js">
+    <link rel="stylesheet" crossorigin href="./assets/game-DoaiuNeM.css">
+  </head>
+  <body>
+    <!-- During a run on a phone held upright, this replaces the game (styles.css). -->
+    <div id="rotate-hint">
+      <div class="rotate-icon">📱</div>
+      <p>Turn your phone sideways to play.</p>
+    </div>
+    <div id="app"></div>
+  </body>
+</html>
