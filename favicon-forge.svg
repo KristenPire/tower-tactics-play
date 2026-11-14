@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" rx="6" fill="#0b2440"/>
+  <rect x="2.5" y="2.5" width="27" height="27" rx="4.5" fill="none" stroke="#92c8e8" stroke-opacity=".45"/>
+  <!-- anvil, redline pen -->
+  <path d="M8 13 h16 v3 c0 1.5 -2.5 2.5 -5 2.5 h-1 l1.5 5 h-7 l1.5 -5 h-1 c-2.5 0 -5 -1 -5 -2.5 z" fill="#ff5a3c"/>
+  <path d="M11 10.5 h10 v2.5 h-10 z" fill="#e9f2fb"/>
+  <path d="M5 23.5 h22" stroke="#92c8e8" stroke-opacity=".5" stroke-width="1" stroke-dasharray="2.5 2"/>
+</svg>
